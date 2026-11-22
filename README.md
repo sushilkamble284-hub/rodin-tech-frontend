@@ -27,3 +27,10 @@ npm run lint
 ```
 
 Portfolio entries and the guiding-principle quote are explicitly presented as concepts rather than client work or customer testimonials.
+
+## GitHub Pages deployment
+
+The `main` branch is deployed to GitHub Pages by the workflow in `.github/workflows/deploy.yml`.
+To enable deployment, open the repository's **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. Each push to `main` then publishes the site at:
+
+https://sushilkamble284-hub.github.io/rodin-tech-frontend/

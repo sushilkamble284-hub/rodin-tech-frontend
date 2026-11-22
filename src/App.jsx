@@ -95,7 +95,7 @@ function Icon({ name, size = 20, className = '' }) {
 function Brand({ footer = false }) {
   return (
     <a className={`brand${footer ? ' brand-footer' : ''}`} href="#home" aria-label="Rodin Tech home">
-      <img className="brand-symbol" src="/icon2.png" alt="" />
+      <img className="brand-symbol" src={`${import.meta.env.BASE_URL}icon2.png`} alt="" />
       <span>rodin<span className="brand-tech">tech</span></span>
     </a>
   )
